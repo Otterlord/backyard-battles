@@ -10,6 +10,7 @@ public class FighterBehavior : MonoBehaviour {
     public float jumpForce;
 
     private Rigidbody2D rb;
+    public float weakness = 1;
 
     // Key bindings
     public KeyCode leftKey;
@@ -43,13 +44,14 @@ public class FighterBehavior : MonoBehaviour {
         }
         else jumpRelease = false;
 
-
+        /*
         if (rb.velocity.y <= 0)
         {
             rb.gravityScale = 2;
             print("hey okay");
         }
         else rb.gravityScale = 1;
+        */
     }
 
     void FixedUpdate()
