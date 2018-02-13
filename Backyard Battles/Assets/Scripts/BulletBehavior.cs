@@ -9,10 +9,7 @@ public class BulletBehavior : MonoBehaviour {
     {
         if (other.tag == "Fighter")
         {
-            Vector2 direction = other.transform.position - transform.position;
-            print(direction);
-            other.GetComponent<Rigidbody2D>().AddForce(direction * 2 * other.GetComponent<FighterBehavior>().weakness, ForceMode2D.Impulse);
-            other.GetComponent<FighterBehavior>().weakness += damageAmount;
+            // something here
         }
         if (other.tag != "Bullet") Destroy(this.gameObject);
     }

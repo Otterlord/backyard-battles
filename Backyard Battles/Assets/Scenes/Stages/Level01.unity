@@ -252,7 +252,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!1 &117628662
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,7 +316,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &117628665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,9 +332,9 @@ MonoBehaviour:
   force: 4
   jumpForce: 10
   weakness: 0
-  leftKey: 97
-  rightKey: 100
-  jumpKey: 32
+  leftKey: 276
+  rightKey: 275
+  jumpKey: 273
 --- !u!212 &117628666
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -805,7 +805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b934997bbe58ca41899d5bfa40400c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 61963516}
+  target: {fileID: 117628667}
   amount: 0.15
 --- !u!1 &1308745034
 GameObject:

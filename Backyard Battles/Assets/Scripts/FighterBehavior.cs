@@ -10,7 +10,6 @@ public class FighterBehavior : MonoBehaviour {
     public float jumpForce;
 
     private Rigidbody2D rb;
-    public float weakness = 1;
 
     // Key bindings
     public KeyCode leftKey;
